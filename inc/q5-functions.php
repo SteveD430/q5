@@ -6,7 +6,7 @@ if( ! function_exists( 'q5_dropdown_posts' ) ) {
 	 * The 'exclude' argument allows specific posts to be excluded.
 	 *
 	 * Supports all WP_Query arguments
-	 * @see https://codex.wordpress.org/Class_Reference/WP_Query
+	 * @see https://developer.wordpress.org/reference/classes/wp_query/
 	 *
 	 * The available arguments are as follows:
 	 *
@@ -164,6 +164,7 @@ if ( ! function_exists( 'q5_filter_technical_category' )) {
 	function q5_filter_technical_category( $query ){
 		$cat_id = get_cat_ID('Technical');
 		$query->set('cat', $cat_id);
+		$query->set('post_parent', 0);
 		return $query;
 	}
 }
