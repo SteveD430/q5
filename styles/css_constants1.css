@@ -1,0 +1,232 @@
+/*
+ * Q5 Colour and Font Business Scheme constants
+ * This file defines a set of constants for colours, fonts and font sizes that are uesed throughout
+ * the Q5 theme. Either replacing these constants, or replacing the loading of this file with an equivalent
+ * will enable the theme to be 'skinned'
+ *
+ * @pacakage WordPress
+ * @subpackage Q5
+ * @since 5.0.2
+ *
+ * Elements.
+ * =========
+ */
+ 
+ :root {
+	--q5-logoTextColor: #cbc5c1; 			/* Cashmere */
+	--q5-headerMenuColor: #af5920;
+	--q5-headerMenuHoverColor: #004c99;
+	--q5-headerMenuActiveColor: #8a2be2;
+	--q5-aColor: #cd853f;				    /* Peru Brown */
+	--q5-aHoverColor: #8a2be2;				/* Blue Violet */
+	--q5-siteTitleColor:#af5920;
+
+	
+	/* Page */
+	--q5-PageTitleColor: #004c99;
+	--q5-PageTitleSize: 32pt;
+	--q5-PageTitleFont: Times New Romam;
+
+	--q5-PageContentColor: #f0f;
+	--q5-PageContentSize: 11pt;
+	--q5-PageContentFont: Tahoma;
+	
+}
+
+
+header {
+	--q5-headerBackgroundColor: #4c586f;	/* Denim */
+}
+
+footer {
+	--q5-footerBackgroundColor: #4c586f;
+}
+ul {
+	--q5-ulListStyle:circle;
+    --q5-ulPosition:relative;
+    --q5-ulLeft:25px;
+}
+h1 {
+	--q5-h1Color: #3e3e3b;
+}
+h2 {
+	--q5-h2Color: #3e3e3b;
+}
+h3 {
+	--q5-h3Color: #3e3e3b;
+}
+h4 {
+	--q5-h4Color: #3e3e3b;
+}
+p {
+	--q5-pMarginBottom: 25px;
+}
+
+
+code,
+kbd,
+samp {
+  --cks-font-family: monospace, monospace;
+  --cks-font-size: 1em;
+}
+
+small {
+  --small-font-size: 80%;
+}
+
+abbr[title] {
+  --abbr-border-bottom: none;
+  --abbr-text-underline: underline;
+  --abbr-text-decoration: underline dotted;
+}
+sub,
+sup {
+  --ss-font-size: 75%;
+  --ss-line-height: 0;
+  --ss-position: relative;
+  --ss-vertical-align: baseline;
+}
+
+sub {
+  --sub-bottom: -0.25em;
+}
+
+sup {
+  --sup-top: -0.5em;
+}
+
+img {
+  --img-border-style: none;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  --biost-font-family: inherit;
+  --biostfont-size: 100%;
+  --biost-line-height: 1.15;
+  --biost-margin: 0;
+}
+
+
+button,
+input {
+  --bi-overflow: visible;
+}
+
+button,
+select {
+  --bs-text-transform: none;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  --fieldset-padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  --legend-box-sizing: border-box;
+  --legend-color: inherit;
+  --legend-display: table;
+  --legend-max-width: 100%;
+  --legend-padding: 0;
+  --legend-white-space: normal;
+}
+
+progress {
+  --progress-vertical-align: baseline;
+}
+
+textarea {
+  --textarea-overflow: auto;
+}
+
+details {
+  --details-display: block;
+}
+
+summary {
+  --summary-display: list-item;
+}
+
+template {
+  --template-display: none;
+}
+
+
+/* Typography */
+html {
+  --html-font-size: 22px;
+}
+
+body {
+  --body-color: #111;
+  --body-font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+  --body-font-weight: 400;
+  --body-font-size: 1em;
+  --body-line-height: 1.8;
+  --body-margin: 0;
+  --body-text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+select,
+optgroup,
+textarea {
+  --bisot-color: #111;
+  --bisot-font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+  --bisot-font-weight: 400;
+  --bisot-line-height: 1.8;
+  --bisot-text-rendering: optimizeLegibility;
+}
+
+/*
+ * Classes
+ * =======
+ */
+.q5-content {
+    --q5-mainBodyPosition:relative;
+}
+.q5-mainBody {
+    --q5-mainBodyPosition:relative;
+}
+
+.q5-sidebar, .q5-half-sidebar, .q5-sidebarPageRight {
+	--q5-sidebarBackgroundColor:#eee;
+}
+
+.q5-mainBodyImage {
+    --q5-mainBodyImageWidth:100%;
+    --q5-mainBodyImageVerticalAlign:top;
+    --q5-mainBodyImageZ-index:-10;
+}
+
+
+.q5-mainBodyText{
+    --q5-mainBodyTextBackgroundColor:#4c586f;
+}
+
+.q5-mainBodyMenuBar{
+    --q5-mainBodyMenuBarBackgroundColor:#3e3e3b;
+    --q5-mainBodyMenuBarZ-index:10;
+    --q5-mainBodyMenuBarMargin:3px;
+}
+
+.LogoImg {
+    --q5-logoImgMargin:6px;
+}
+
+.LogoText {
+    --q5-logoTextColor: #cbc5c1; 			/* Cashmere */
+    --q5-logoTextFontSize:30pt;
+    --q5-logoTextMargin:4px 30px 4px 15px;
+    --q5-logoTextVerticalAlign:14px;
+}
+
+

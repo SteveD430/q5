@@ -1,0 +1,913 @@
+q5_dropdown_posts: q5_dropdown_posts: Posts not empty
+q5_dropdown_posts: 1 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 2 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 3 <select name='post_id' id='post_id' class=''>
+	<option value='1'>Hello world!</option>
+	<option value='25'>Post 4</option>
+	<option value='21'>Second post</option>
+	<option value='23'>Third Post</option>
+</select>
+q5_dropdown_posts: q5_dropdown_posts: Posts not empty
+q5_dropdown_posts: 1 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 2 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 3 <select name='post_id' id='post_id' class=''>
+	<option value='1'>Hello world!</option>
+	<option value='25'>Post 4</option>
+	<option value='21'>Second post</option>
+	<option value='23'>Third Post</option>
+</select>
+q5_dropdown_posts: q5_dropdown_posts: Posts not empty
+q5_dropdown_posts: 1 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 2 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 3 <select name='post_id' id='post_id' class=''>
+	<option value='1'>Hello world!</option>
+	<option value='25'>Post 4</option>
+	<option value='21'>Second post</option>
+	<option value='23'>Third Post</option>
+</select>
+q5_dropdown_posts: q5_dropdown_posts: Posts not empty
+q5_dropdown_posts: 1 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 2 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 3 <select name='post_id' id='post_id' class=''>
+	<option value='1'>Hello world!</option>
+	<option value='25'>Post 4</option>
+	<option value='21'>Second post</option>
+	<option value='23'>Third Post</option>
+</select>
+q5_dropdown_posts: q5_dropdown_posts: Posts not empty
+q5_dropdown_posts: 1 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 2 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 3 <select name='post_id' id='post_id' class=''>
+	<option value='1'>Hello world!</option>
+	<option value='25'>Post 4</option>
+	<option value='21'>Second post</option>
+	<option value='23'>Third Post</option>
+</select>
+q5_dropdown_posts: q5_dropdown_posts: Posts not empty
+q5_dropdown_posts: 1 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 2 <select name='post_id' id='post_id' class=''>
+
+q5_dropdown_posts: 3 <select name='post_id' id='post_id' class=''>
+	<option value='1'>Hello world!</option>
+	<option value='25'>Post 4</option>
+	<option value='21'>Second post</option>
+	<option value='23'>Third Post</option>
+</select>
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_add_anchor_points_content_filter: q5_add_anchor_points_content_filter
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+require_once: Leaving Page-Left
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_customize_register: D:\wamp64\www\quintic/wp-content/themes/q5/img/q5_background.jpg
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page has categories
+q5_is_site_page: Category value: site-page
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_filter_site_pages: filtering?
+q5_filter_site_pages: filtering?
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_filter_site_pages: filtering?
+q5_filter_site_pages: filtering?
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_filter_site_pages: filtering category: 0
+q5_filter_site_pages: filtering category: 0
+q5_filter_site_pages: filtering category: 7
+q5_filter_site_pages: filtering category: 7
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_category_site_page_template: Entered q5_category_site_page_template
+q5_is_site_page: Page does not have categories
+q5_filter_site_pages: filtering category: 7
+q5_filter_site_pages: filtering category: 7
+

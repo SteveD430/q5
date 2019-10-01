@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+
+	display: block;
+}
+
+body {
+
+	line-height: 1;
+}
+
+ol, ul {
+
+	list-style: none;
+}
+
+blockquote, q {
+
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+
+	content: '';
+	content: none;
+}
+
+table {
+
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+--html-line-height: 1.15;
+}
+
+h1 {
+  --h1-font-size: 2em;
+}
+
+a {
+  --a-background-color: transparent;
+}
+/*
+ * Q5 Standard Theme constants. Copied from Twenty-Nineteen
+*/
+html {
+--html-line-height: 1.15;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+a {
+  background-color:var(--a-background-color);
+}
+
+/*
+ * Classes
+ * =======
+ */
+.q5-content {
+    --q5-mainBodyPosition:relative;
+}
+.q5-mainBody {
+    --q5-mainBodyPosition:relative;
+}
+
+.q5-mainBodyImage {
+    --q5-mainBodyImageWidth:100%;
+    --q5-mainBodyImageVerticalAlign:top;
+    --q5-mainBodyImageZ-index:-10;
+}
+
+
+.q5-mainBodyText{
+    --q5-mainBodyTextBackgroundColor:#4c586f;
+}
+
+.q5-mainBodyMenuBar{
+    --q5-mainBodyMenuBarBackgroundColor:#3e3e3b;
+    --q5-mainBodyMenuBarZ-index:10;
+    --q5-mainBodyMenuBarMargin:3px;
+}
+
+.LogoImg {
+    --q5-logoImgMargin:6px;
+}
+
+.LogoText {
+    --q5-logoTextColor: #cbc5c1; 			/* Cashmere */
+    --q5-logoTextFontSize:30pt;
+    --q5-logoTextMargin:4px 30px 4px 15px;
+    --q5-logoTextVerticalAlign:14px;
+}
+
+.LogoText:first-letter {
+    font-size:50pt;
+}
+
+.PageLogoTextFirstLetter {
+    color:brown;
+    font-size:30pt;
+    margin:4px 0px 4px 20px;
+    vertical-align:20px;
+}
+.PageLogoText {
+    color:brown;
+    font-size:20pt;
+    margin:4px 30px 4px -3px;
+    vertical-align:14px;
+}
+
+.HeaderMenuBar0 {
+    position:absolute;
+    top:25px;
+    right:25px;
+    z-index:10;
+}
+
+.HeaderMenuBar {
+    display:inline-block;
+    width:19%;
+    height:100%;
+    vertical-align:middle;
+    padding-left:2px;
+}
+
+.HeaderMenu {
+    color: var(--q5-header-menu-color);
+    font-size:10pt;
+
+    border-width:2px;
+    border-spacing:5px;
+    border-style:none;
+    padding:3px;
+    margin:5px;
+    vertical-align:middle;
+}
+
+.QuinticTitleBlock {
+    display:inline-block;
+    width:25%;
+    vertical-align:top;
+    padding:5px 5px 5px 5px;
+}
+
+.q5-PageTitleBlock {
+    display:inline-block;
+    width:50%;
+    vertical-align:middle;
+    text-align:center;
+    padding:5px 5px 5px 5px;
+}
+
+.PageImage {
+    padding-left:20px;
+    vertical-align:middle;
+}
+
+.PageTitle {
+    padding-left:10px;
+    vertical-align:middle;
+    color:brown;
+    font-size:30pt;
+
+}
+
+.copyright {
+    font-size: 10px;
+    font-family: Tahoma;
+    padding:30px;
+    text-align: center;
+}
+
+.middle{
+    vertical-align:middle;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.filler{
+    height:100%;
+}
+
+
+.q5-SiteTitle-FirstLetter
+.q5-SiteTitle-FirstLetter{
+--q5-SiteTitle-color:#ff0000;
+}
+
+
+/*
+ * IDs
+ * ===
+ */
