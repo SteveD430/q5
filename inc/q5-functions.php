@@ -249,4 +249,5 @@ if( ! function_exists( 'q5_register_product_type_taxonomies' ) ) {
 	}
 	add_action('init', 'q5_register_product_type_taxonomies');
 }
+
 ?>

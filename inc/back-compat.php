@@ -36,7 +36,7 @@ add_action( 'after_switch_theme', 'q5_switch_theme' );
  * @global string $wp_version WordPress version.
  */
 function q5_upgrade_notice() {
-	$message = sprintf( __( 'Twenty Nineteen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again.', 'q5' ), $GLOBALS['wp_version'] );
+	$message = sprintf( __( 'Q5 requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again.', 'q5' ), $GLOBALS['wp_version'] );
 	printf( '<div class="error"><p>%s</p></div>', $message );
 }
 

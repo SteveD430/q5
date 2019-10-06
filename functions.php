@@ -538,7 +538,6 @@ function q5_add_anchor_points_content_filter ( $content ) {
 }
 add_filter('the_content', 'q5_add_anchor_points_content_filter' );
 
-
 /**
  * SVG Icons class.
  */

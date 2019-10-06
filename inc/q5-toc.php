@@ -180,6 +180,124 @@ class q5_toc_definition
 	}
 }
 
+/**
+ * function q5_list_child_pages
+ * ======================
+ * Return a list of child pages as HTML.
+ *
+ * @since 1.0.0
+ *
+ * @see get_pages()
+ *
+ * @global WP_Query $wp_query
+ *
+ * @param post $post 	Current Page.
+ * @param array|string $args {
+ *     Optional. Array or string of arguments to generate a list of pages. See `get_pages()` for additional arguments.
+ *
+ *     @type string       $date_format  PHP date format to use for the listed pages. Relies on the 'show_date' parameter.
+ *                                      Default is the value of 'date_format' option.
+ *     @type int          $depth        Number of levels in the hierarchy of pages to include in the generated list.
+ *                                      Accepts -1 (any depth), 0 (all pages), 1 (top-level pages only), and n (pages to
+ *                                      the given n depth). Default 1.
+ *     @type string		  $title_class	CSS Class of the title_class
+ *	   @type string		  $entry_class  CSS Class of each entry
+ *	   @type string		  $date_class   CSS class of Date field, if requested.
+ *     @type string       $exclude      Comma-separated list of page IDs to exclude. Default empty.
+ *     @type array        $include      Comma-separated list of page IDs to include. Default empty.
+ *     @type string       $link_after   Text or HTML to follow the page link label. Default null.
+ *     @type string       $link_before  Text or HTML to precede the page link label. Default null.
+ *     @type string       $post_type    Post type to query for. Default 'page'.
+ *     @type string|array $post_status  Comma-separated list or array of post statuses to include. Default 'publish'.
+ *     @type string       $show_date    Whether to display the page publish or modified date for each page. Accepts
+ *                                      'modified' or any other value. An empty value hides the date. Default empty.
+ *     @type string       $sort_column  Comma-separated list of column names to sort the pages by. Accepts 'post_author',
+ *                                      'post_date', 'post_title', 'post_name', 'post_modified', 'post_modified_gmt',
+ *                                      'menu_order', 'post_parent', 'ID', 'rand', or 'comment_count'. Default 'post_title'.
+ *     @type string       $title_child  List heading. Default 'Pages'.
+ *     @type string       $item_spacing Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'.
+ *                                      Default 'preserve'.
+ *     @type Walker       $walker       Walker instance to use for listing pages. Default empty (Walker_Page).
+ *
+ *	   @return string - HTML to insert into widget/page.
+ * }
+ * 
+ */
+function q5_list_child_pages( $post, $args = '' ) {
+	$defaults = array(
+		'depth'        => 0,
+		'show_date'    => '',
+		'date_format'  => get_option( 'date_format' ),
+		'exclude'      => '',
+		'title_child'  => __( 'Pages' ),
+		'sort_column'  => 'menu_order, post_title',
+		'link_before'  => '',
+		'link_after'   => '',
+		'item_spacing' => 'preserve',
+		'walker'       => '',
+		'section_class'=> '',
+		'title_class'  => '',
+		'entry_class'  => '',
+		'date_class'   => '',
+		'post_status'  => 'publish',
+	);
+	$r = wp_parse_args( $args, $defaults );
+
+	if ( ! in_array( $r['item_spacing'], array( 'preserve', 'discard' ), true ) ) 
+	{
+		// invalid value, fall back to default.
+		$r['item_spacing'] = $defaults['item_spacing'];
+	}
+
+	$output       = '<div class="' . $r['section_class'] . '">';
+	// $current_page = 0;
+
+	// sanitize, mostly to keep spaces out
+	$r['exclude'] = preg_replace( '/[^0-9,]/', '', $r['exclude'] );
+
+	// Allow plugins to filter an array of excluded pages (but don't put a nullstring into the array)
+	$exclude_array = ( $r['exclude'] ) ? explode( ',', $r['exclude'] ) : array();
+
+	/**
+	 * Filters the array of pages to exclude from the pages list.
+	 *
+	 * @since 2.1.0
+	 *
+	 * @param array $exclude_array An array of page IDs to exclude.
+	 */
+	$r['exclude'] = implode( ',', apply_filters( 'wp_list_pages_excludes', $exclude_array ) );
+
+	// Query pages.
+	$r['hierarchical'] = 0;
+	$pages             = get_pages( $r );
+
+	if ( ! empty( $pages ) ) 
+	{
+		if ( $r['title_child'] ) 
+		{
+			$output .= '<p class="' . $r['title_class'] . '">' . $r['title_child'] . '</p>';
+		}
+
+		foreach ( (array) $pages as $child_page ) 
+		{
+				q5_debug ('Returned Page Parent: ' . $child_page->post_parent);
+
+			if ($child_page->post_parent !=  0 && $child_page->post_parent == $post->ID)
+			{
+				$link = get_permalink($child_page->ID);
+				if ($link == null)
+				{
+					$link = get_page_link($child_page->ID);
+				}
+				$output .= '<p class="'. $r['entry_class'] . '"><a href="' . $link .'">' . $child_page->post_title . '</a></p>';
+			}
+		}
+		$output .= '</div>';
+		return $output;
+	}
+}
+
+
 class q5_toc_widget extends WP_Widget
 {
 	public function __construct()
