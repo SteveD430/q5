@@ -270,20 +270,19 @@ function q5_list_child_pages( $post, $args = '' ) {
 	// Query pages.
 	$r['hierarchical'] = 0;
 	$pages             = get_pages( $r );
+	$title_function = 'q5_add_title';
 
 	if ( ! empty( $pages ) ) 
 	{
-		if ( $r['title_child'] ) 
-		{
-			$output .= '<p class="' . $r['title_class'] . '">' . $r['title_child'] . '</p>';
-		}
+
 
 		foreach ( (array) $pages as $child_page ) 
 		{
-				q5_debug ('Returned Page Parent: ' . $child_page->post_parent);
 
 			if ($child_page->post_parent !=  0 && $child_page->post_parent == $post->ID)
 			{
+				$output .= $title_function($r);
+				$title_function = 'q5_null_function';
 				$link = get_permalink($child_page->ID);
 				if ($link == null)
 				{
@@ -297,6 +296,18 @@ function q5_list_child_pages( $post, $args = '' ) {
 	}
 }
 
+function q5_add_title($args)
+{
+	if ( $args['title_child'] ) 
+	{
+		return '<p class="' . $args['title_class'] . '">' . $args['title_child'] . '</p>';
+	}
+	return '';
+}
+
+function q5_null_function ($args = '')
+{
+}
 
 class q5_toc_widget extends WP_Widget
 {
