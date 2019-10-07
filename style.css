@@ -269,6 +269,12 @@ a:active{
 	font-size:16px;
 }
 
+.q5_toc_child ul, .q5_toc_hidden ul {
+	position: relative;
+	left: -20px;
+	list-style:none;
+}
+
 .q5_toc_child_title, .q5_toc_child_title_hidden {
 	padding-left: 20px;
 	padding-top:30px;

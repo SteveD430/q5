@@ -287,7 +287,7 @@ function q5_list_child_pages( $post, $args = '' ) {
 				{
 					$link = get_page_link($child_page->ID);
 				}
-				$output .= '<a  class="'. $r['entry_class'] . '" href="' . $link .'">' . $child_page->post_title . '</a>';
+				$output .= '<li><a  class="'. $r['entry_class'] . '" href="' . $link .'">' . $child_page->post_title . '</a></li>';
 			}
 		}
 		$output .= $section_end_function();
@@ -297,17 +297,17 @@ function q5_list_child_pages( $post, $args = '' ) {
 
 function q5_add_section_start($args)
 {
-	$output = '<div class="' . $r['section_class'] . '">';
+	$output = '<div class="' . $args['section_class'] . '">';
 	if ( $args['title_child'] ) 
 	{
-		$output .= '<p class="' . $args['title_class'] . '">' . $args['title_child'] . '</p>';
+		$output .= '<p class="' . $args['title_class'] . '">' . $args['title_child'] . '</p><ul>';
 	}
 	return $output;
 }
 
 function q5_add_section_end()
 {
-	return '</div>';
+	return '</ul></div>';
 }
 
 function q5_null_function ($args = '')
