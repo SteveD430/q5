@@ -36,20 +36,40 @@ if ( ! is_front_page() && !is_category( 'Site-Page' ) ) : ?>
 					$toc->render_toc($hiddenToc);
 					
 					// ChildPages
-					$childArgs = array (
+					$child_args = array (
 						'title_child'	=> 'Topics',
 						'section_class'	=> 'q5_toc_child',
 						'title_class'	=> 'q5_toc_child_title',
 						'entry_class'	=> 'q5_toc_child_entry',
 					);
-					echo q5_list_child_pages($post, $childArgs); 
-					$childArgs = array (
+					echo q5_list_child_pages($post, $child_args); 
+					
+					$child_args = array (
 						'title_child'	=> 'Topics',
-						'section_class' => 'q5_toc_child_hidden',
+						'section_class'	=> 'q5_toc_child_hidden',
 						'title_class'	=> 'q5_toc_child_title_hidden',
 						'entry_class'	=> 'q5_toc_child_entry_hidden',
 					);
-					echo q5_list_child_pages($post, $childArgs);  
+
+					echo q5_list_child_pages($post, $child_args);  
+					
+					// Parent Page - uses same CSS classes as child section.
+					$parent_args = array(
+						'title_parent'	=> 'Main Topic',
+						'section_class'	=> 'q5_toc_child',
+						'title_class'	=> 'q5_toc_child_title',
+						'entry_class'	=> 'q5_toc_child_entry',
+					);
+					echo q5_list_parent($post, $parent_args); 
+					
+					$parent_args = array(
+						'title_parent'	=> 'Main Topic',
+						'section_class'	=> 'q5_toc_child_hidden',
+						'title_class'	=> 'q5_toc_child_title_hidden',
+						'entry_class'	=> 'q5_toc_child_entry_hidden',
+					);
+					echo q5_list_parent($post, $parent_args);
+					
 				?>
 			</div><!-- .widget-area -->
 	</div><!-- .sidebar -->

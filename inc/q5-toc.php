@@ -249,9 +249,6 @@ function q5_list_child_pages( $post, $args = '' ) {
 		$r['item_spacing'] = $defaults['item_spacing'];
 	}
 
-	$output       = '<div class="' . $r['section_class'] . '">';
-	// $current_page = 0;
-
 	// sanitize, mostly to keep spaces out
 	$r['exclude'] = preg_replace( '/[^0-9,]/', '', $r['exclude'] );
 
@@ -270,7 +267,8 @@ function q5_list_child_pages( $post, $args = '' ) {
 	// Query pages.
 	$r['hierarchical'] = 0;
 	$pages             = get_pages( $r );
-	$title_function = 'q5_add_title';
+	$section_start_function = 'q5_add_section_start';
+	$section_end_function = 'q5_null_function';
 
 	if ( ! empty( $pages ) ) 
 	{
@@ -281,32 +279,100 @@ function q5_list_child_pages( $post, $args = '' ) {
 
 			if ($child_page->post_parent !=  0 && $child_page->post_parent == $post->ID)
 			{
-				$output .= $title_function($r);
-				$title_function = 'q5_null_function';
+				$output .= $section_start_function($r);
+				$section_start_function = 'q5_null_function';
+				$section_end_function = 'q5_add_section_end';
 				$link = get_permalink($child_page->ID);
 				if ($link == null)
 				{
 					$link = get_page_link($child_page->ID);
 				}
-				$output .= '<p class="'. $r['entry_class'] . '"><a href="' . $link .'">' . $child_page->post_title . '</a></p>';
+				$output .= '<a  class="'. $r['entry_class'] . '" href="' . $link .'">' . $child_page->post_title . '</a>';
 			}
 		}
-		$output .= '</div>';
+		$output .= $section_end_function();
 		return $output;
 	}
 }
 
-function q5_add_title($args)
+function q5_add_section_start($args)
 {
+	$output = '<div class="' . $r['section_class'] . '">';
 	if ( $args['title_child'] ) 
 	{
-		return '<p class="' . $args['title_class'] . '">' . $args['title_child'] . '</p>';
+		$output .= '<p class="' . $args['title_class'] . '">' . $args['title_child'] . '</p>';
 	}
-	return '';
+	return $output;
+}
+
+function q5_add_section_end()
+{
+	return '</div>';
 }
 
 function q5_null_function ($args = '')
 {
+}
+
+
+/**
+ * function q5_list_parent
+ * =======================
+ * Return a link to parent page as HTML.
+ *
+ * @since 1.0.0
+ *
+ * @param post $post 	Current Page.
+ * @param array|string $args {
+ *     Optional. Array or string of arguments to generate a list of pages. See `get_pages()` for additional arguments.
+ *
+ *     @type string		  $section_class CSS Class of the section (<div>
+ *     @type string		  $title_class	 CSS Class of the title 
+ *	   @type string		  $entry_class   CSS Class of each entry
+ 
+ *     @type string       $title_parent  List heading. Default 'Parent'.
+ *     @type string       $item_spacing Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'.
+ *                                      Default 'preserve'.
+ *
+ *	   @return string - HTML to insert into widget/page.
+ * 
+ */
+function q5_list_parent( $post, $args = '' ) {
+	$defaults = array(
+		'title_parent'  => __( 'Parent' ),
+		'section_class'=> '',
+		'title_class'  => '',
+		'entry_class'  => '',
+		'item_spacing' => 'preserve',
+	);
+	$output = '';
+	
+	$r = wp_parse_args( $args, $defaults );
+
+	if ( ! in_array( $r['item_spacing'], array( 'preserve', 'discard' ), true ) ) 
+	{
+		// invalid value, fall back to default.
+		$r['item_spacing'] = $defaults['item_spacing'];
+	}
+
+	
+	q5_debug ('Parent Id: ' . $post->post_parent);
+	if ( $post->post_parent != 0)
+	{
+
+		$parent_page = get_post($post->post_parent);
+		$link = get_permalink($post->post_parent);
+		if ($link == null)
+		{
+			$link = get_page_link($post->post_parent);
+		}
+		$output = '<div class="' . $r['section_class'] . '">';
+		$output .= '<p class="' . $r['title_class'] . '">' . $r['title_parent'] . '</p>';
+		$output .= '<a class="'. $r['entry_class'] . '" href="' . $link .'">' . $parent_page->post_title . '</a>';
+		$output .= '</div>';
+	}
+	
+	return $output;
 }
 
 class q5_toc_widget extends WP_Widget
