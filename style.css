@@ -178,21 +178,25 @@ a:active{
 }
 
 .q5-sidebar {
-	width: 50%;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
 	background-color:var(--q5-sidebarBackgroundColor);
 }
 
 .q5-half-sidebar {
 	width: 20%;
 	min-width: 20%;
-	max-width: 20%
+	max-width: 20%;
 	background-color:var(--q5-sidebarBackgroundColor);
 }
 /*
  * Sidebar Page Right
  */
  .q5-sidebarPageRight {
-	width: 50%;
+	width: 20%;
+	min-width: 20%;
+	max-width: 20%;
 	background-color:var(--q5-sidebarBackgroundColor);
  }
  
@@ -438,8 +442,11 @@ a:active{
  * Pages
  */
 .q5-page-content{
-		padding-left: 60px;
-		padding-right: 60px
+	width: 60%;
+	min-width: 60%;
+	max-width: 60%;
+	padding-left: 60px;
+	padding-right: 60px
 }
 
 .q5-page-content h1 {
