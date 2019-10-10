@@ -1,61 +1,37 @@
 <?php
 
-/**
- * Load dynamic logic for the customizer controls area.
- */
-function q5_panels_js() {
-	wp_enqueue_script( 'q5-customize-controls', get_theme_file_uri( '/js/customize-controls.js' ), array(), '20181031', true );
-}
-add_action( 'customize_controls_enqueue_scripts', 'q5_panels_js' );
-
-/**
- * Sanitize custom color choice.
- *
- * @param string $choice Whether image filter is active.
- *
- * @return string
- */
-function q5_sanitize_color_option( $choice ) {
-	$valid = array(
-		'default',
-		'custom',
-	);
-
-	if ( in_array( $choice, $valid, true ) ) {
-		return $choice;
-	}
-
-	return 'default';
-}
 
 /****************************************************************************
- * customizer code from Twenty-Fifteen
- */
- 
-/**
- * Twenty Fifteen Customizer functionality
+ * Q5 Customizer functionality
  *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
- */
+ * @package Quintic
+ * @subpackage Q5
+ * @since 1.0
+ ****************************************************************************/
+ 
 
 /**
- * Add postMessage support for site title and description for the Customizer.
+ * q5_customize_register.
+ * ======================
+ * Sections:
+ *		Site-Pages:	Define Category used identify Site-Pages (Default: 'Site Page')
+ *					Define background image for site-pages (Default: 'q5_background.jpg')
  *
- * @since Twenty Fifteen 1.0
+ *
+ *		
+ * @since Q5 1.0
  *
  * @param WP_Customize_Manager $wp_customize Customizer object.
  */
 function q5_customize_register( $wp_customize ) {
 	
-		// Failsafe.
+	// Failsafe.
 	if ( !isset($wp_customize))
 	{
 		return;
 	}
 	/*
-	 * Site-Page Customization
+	 * Site Pages Customization
 	 * =======================
 	 */
 	// Add Site-Page section.
@@ -64,8 +40,8 @@ function q5_customize_register( $wp_customize ) {
 		'description'	=> __( 'Set defintion of Site pages and their common background'),
 			)
 		);
-		
-	//Add Site-Page background image upload control // 'q5_control_site_image_upload'
+	// Request Category for site pages. Default: 	
+	// Add Site-Page background image upload control // 'q5_control_site_image_upload'
 	$image_upload_control = new WP_Customize_Image_Control ($wp_customize,
 		'q5_control_site_image_upload',
 		array('settings'	=> 'q5_setting_site_page_image',
@@ -77,12 +53,12 @@ function q5_customize_register( $wp_customize ) {
 		
 	$wp_customize->add_control($image_upload_control, 'q5_control_site_page_image');
 	
-	$q5_background = get_theme_file_path() . '/img/q5_background.jpg';
+
+	$q5_background = get_site_url().'/wp-content/themes/q5/img/q5_background.jpg'; 
 	q5_debug($q5_background);
 	
 	$wp_customize->add_setting('q5_setting_site_page_image', array(
-		'default'			=> 'D:/wamp64/www/quintic/wp-content/themes/q5/img/q5_background.jpg',
-		//'default'			=> $q5_background,
+		'default'			=> $q5_background,
 		'sanitize_callback'	=> 'esc_url_raw',
 		'transport'			=> 'postMessage')
 		);
@@ -186,6 +162,35 @@ function q5_customize_register( $wp_customize ) {
 	$wp_customize->get_section( 'header_image' )->description = __( 'Applied to the header on small screens and the sidebar on wide screens.', 'q5' );
 }
 add_action( 'customize_register', 'q5_customize_register', 11 );
+
+
+/**
+ * Load dynamic logic for the customizer controls area.
+ */
+function q5_panels_js() {
+	wp_enqueue_script( 'q5-customize-controls', get_theme_file_uri( '/js/customize-controls.js' ), array(), '20181031', true );
+}
+add_action( 'customize_controls_enqueue_scripts', 'q5_panels_js' );
+
+/**
+ * Sanitize custom color choice.
+ *
+ * @param string $choice Whether image filter is active.
+ *
+ * @return string
+ */
+function q5_sanitize_color_option( $choice ) {
+	$valid = array(
+		'default',
+		'custom',
+	);
+
+	if ( in_array( $choice, $valid, true ) ) {
+		return $choice;
+	}
+
+	return 'default';
+}
 
 /**
  * Render the site title for the selective refresh partial.

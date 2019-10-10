@@ -319,12 +319,15 @@ a:active{
 
 #mainBodyImage {
     width:100%;
+	height:Auto;
     vertical-align:top;
     z-index:-10;
 }
 
 #mainBodyImageTransparent {
     width:100%;
+	max-width:100%;
+	height:Auto;
 	opacity:0.50;
 	filter:alpha(opacity=50);
 	filter:brightness(50%);

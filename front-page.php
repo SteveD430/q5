@@ -1,10 +1,7 @@
 <?php
 /**
  * The front page template file
- *
- * If the user has selected a static page for their homepage, this is what will
- * appear.
- * Learn more: https://codex.wordpress.org/Template_Hierarchy
+ * Displays the Sites Front Page including Central Menu.
  *
  * @package Quintic
  * @subpackage q5
@@ -18,7 +15,7 @@ get_header(); ?>
         <img id="mainBodyImage" />
 		<script>
             var image = document.getElementById("mainBodyImage");
-            image.src = '<?php if (get_theme_mod( 'q5_setting_site_page_image' )) : echo get_theme_mod( 'q5_setting_site_page_image'); else: echo get_template_directory_uri().'/img/q5_background.jpg'; endif; ?>';
+            image.src = '<?php if (get_theme_mod( 'q5_setting_site_page_image' )) : echo get_theme_mod( 'q5_setting_site_page_image'); else: echo get_site_url().'/wp-content/themes/q5/img/q5_background.jpg'; endif; ?>';
         </script>
 
 		<div id="mainBodyMenuBar">

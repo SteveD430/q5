@@ -10,7 +10,7 @@ get_header();
 				      <img id="mainBodyImageTransparent" />
 					<script>
 						var image = document.getElementById("mainBodyImageTransparent");
-						image.src = '<?php if (get_theme_mod( 'q5_setting_site_page_image' )) : echo get_theme_mod( 'q5_setting_site_page_image'); else: echo get_template_directory_uri().'/img/q5_background.jpg'; endif; ?>';
+						image.src = '<?php if (get_theme_mod( 'q5_setting_site_page_image' )) : echo get_theme_mod( 'q5_setting_site_page_image'); else: echo get_site_url().'/wp-content/themes/q5/img/q5_background.jpg'; endif; ?>';
 					</script>
 					<?php 
 					while ( have_posts() ) : 
