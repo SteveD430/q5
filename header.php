@@ -77,7 +77,7 @@
     </div>
 	<nav class="q5-HeaderMenuBar">
 		<ul id="q5-HeaderNavigation">
-			<li class="q5_dropdown_entry"><a class="first" href="<?php get_site_url() ?> ">Home</a></li>
+			<li class="q5_dropdown_entry"><a class="first" href="<?php echo get_site_url(); ?>">Home</a></li>
 		<?php 
 			$blogs = array(
 				'menu_title' 		=> 'Blogs',
