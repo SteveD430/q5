@@ -95,6 +95,7 @@ a {
 
 .q5-mainBodyImage {
     --q5-mainBodyImageWidth:100%;
+    --q5-mainBodyImageHeight:Auto;
     --q5-mainBodyImageVerticalAlign:top;
     --q5-mainBodyImageZ-index:-10;
 }
@@ -165,7 +166,7 @@ a {
     vertical-align:middle;
 }
 
-.QuinticTitleBlock {
+.q5_title_block {
     display:inline-block;
     width:25%;
     vertical-align:top;

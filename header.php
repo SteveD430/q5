@@ -47,8 +47,8 @@
 <div>
 <header class="q5-header">
 <div>
-    <div class="QuinticTitleBlock">
-        <a href="http://mathworld.wolfram.com/KissSurface.html"><img class="q5-SiteLogo" 
+    <div class="q5_title_block">
+        <!-- a href="http://mathworld.wolfram.com/KissSurface.html" --><img class="q5-SiteLogo" 
 			src="<?php $custom_logo_id = get_theme_mod('custom_logo');
 					  $custom_logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
 					  echo esc_url($custom_logo_url)?>"
@@ -56,7 +56,13 @@
 				 $custom_logo_attachment = get_post($custom_logo_id);
 				 sprintf( __($custom_logo_attachment->post_content, ''), the_title_attribute( 'echo=0' ));
 				 ?>" /></a>
-        <p class="q5-SiteTitle"><?php echo get_bloginfo('name'); ?></p>
+				 <?php $words = explode(' ', get_bloginfo('name'));
+				       $title = '';
+						foreach ($words as $word)
+						{
+							$title .= '<p class="q5-SiteTitle">' . $word . '</p>';
+						}; 
+						echo $title;?>
     </div>
     <div class="q5-PageTitleBlock">
 	<?php if (!is_front_page()) {
@@ -71,7 +77,7 @@
     </div>
 	<nav class="q5-HeaderMenuBar">
 		<ul id="q5-HeaderNavigation">
-			<li class="q5_dropdown_entry"><a class="first" href="/">Home</a></li>
+			<li class="q5_dropdown_entry"><a class="first" href="<?php get_site_url() ?> ">Home</a></li>
 		<?php 
 			$blogs = array(
 				'menu_title' 		=> 'Blogs',

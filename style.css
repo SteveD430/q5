@@ -267,9 +267,9 @@ a:active{
 .q5_toc_title, .q5_toc_title_hidden {
 	padding-left: 20px;
 	padding-top:10px;
-	margin: 0px, 10px, 4px, 10px;
+	margin: 0px 10px 0px 0px;
 	font-weight:bold;
-	font:'Circular';
+	font-family:'Circular';
 	font-size:16px;
 }
 
@@ -278,13 +278,16 @@ a:active{
 	left: -20px;
 	list-style:none;
 }
+.q5_toc_child li, .q5_toc_hidden li {
+	line-height: 1.2;
+}
 
 .q5_toc_child_title, .q5_toc_child_title_hidden {
 	padding-left: 20px;
-	padding-top:30px;
-	margin: 0px, 10px, 0px, 10px;
+	padding-top:60px;
+	margin: 0px 10px 0px 0px;
 	font-weight:bold;
-	font:'Circular';
+	font-family:'Circular';
 	font-size:16px;
 }
 

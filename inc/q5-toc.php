@@ -265,6 +265,7 @@ function q5_list_child_pages( $post, $args = '' ) {
 	$r['exclude'] = implode( ',', apply_filters( 'wp_list_pages_excludes', $exclude_array ) );
 
 	// Query pages.
+	$output = '';
 	$r['hierarchical'] = 0;
 	$pages             = get_pages( $r );
 	$section_start_function = 'q5_add_section_start';
@@ -272,8 +273,6 @@ function q5_list_child_pages( $post, $args = '' ) {
 
 	if ( ! empty( $pages ) ) 
 	{
-
-
 		foreach ( (array) $pages as $child_page ) 
 		{
 
