@@ -20,17 +20,17 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
-	<title>Quintic <?php wp_title(); ?></title>
+	<title><?php bloginfo('name') . ' ' . wp_title(); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="description" content="IT Consultant Stephen Dickinson. Driven by Technology and Information. DotNet RaspberryPi SOP" />
+	<?php  echo '<meta name="description" content="' . get_bloginfo('description') . '"/>';  ?>
 	<meta name="keywords" content="Cambridge DotNet RaspberryPi SOP " />
     <meta name="author" content="Steve Dickinson" />
     <meta http-equiv="content-language" content="en" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
-    <meta property="og:title" content="Quintic Ltd" />
+    <?php  echo '<meta property="og:title" content="' . get_bloginfo('name') . '"/>'; ?>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://www.quintic.co.uk/" />
+    <?php  echo '<meta property="og:url" content="' . get_bloginfo('url') . '" />'; ?>
     <meta property="og:image" content="http://www.quintic.co.uk/images/quintic_logo.gif" />
     <meta  property="og:site_name" content="Quintic" />
     <meta property="og:description" content="IT Consultant Stephen Dickinson. Driven by Technology and Information" />
