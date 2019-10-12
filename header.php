@@ -23,17 +23,16 @@
 	<title><?php bloginfo('name') . ' ' . wp_title(); ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<?php  echo '<meta name="description" content="' . get_bloginfo('description') . '"/>';  ?>
-	<meta name="keywords" content="Cambridge DotNet RaspberryPi SOP " />
-    <meta name="author" content="Steve Dickinson" />
-    <meta http-equiv="content-language" content="en" />
+	<?php  echo '<meta name="keywords" content="' . get_bloginfo('tagline') . '"/>';  ?>
+	<?php  echo '<meta name="author" content="' . get_the_author_meta('display_name') . '"/>';  ?>
+	<?php  echo '<meta name="content-language" content="' . get_locale() . '"/>';  ?>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 
     <?php  echo '<meta property="og:title" content="' . get_bloginfo('name') . '"/>'; ?>
     <meta property="og:type" content="website" />
     <?php  echo '<meta property="og:url" content="' . get_bloginfo('url') . '" />'; ?>
-    <meta property="og:image" content="http://www.quintic.co.uk/images/quintic_logo.gif" />
-    <meta  property="og:site_name" content="Quintic" />
-    <meta property="og:description" content="IT Consultant Stephen Dickinson. Driven by Technology and Information" />
+    <?php  echo '<meta property="og:site_name" content="' . get_bloginfo('name') . '"/>'; ?>
+	<?php  echo '<meta property="og:description" content="' . get_bloginfo('description') . '"/>';  ?>
 
 	<link rel="profile" href="https://quintic.co.uk/" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' );?>" />
