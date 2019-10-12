@@ -30,8 +30,7 @@ if ( ! is_front_page() && !is_category( 'Site-Page' ) ) : ?>
 					$hiddenToc = array (
 						'toc_class'             => 'q5_toc_hidden',
 						'toc_title_class'       => 'q5_toc_title_hidden',
-						'toc_entry_class'       => 'q5_toc_entry_hidden',
-						'toc_heirarchy_class'   => 'q5_toc_heirarchy_hidden',
+						'toc_hidden'			=> true,
 					);
 					$toc->render_toc($hiddenToc);
 					
@@ -49,6 +48,7 @@ if ( ! is_front_page() && !is_category( 'Site-Page' ) ) : ?>
 						'section_class'	=> 'q5_toc_child_hidden',
 						'title_class'	=> 'q5_toc_child_title_hidden',
 						'entry_class'	=> 'q5_toc_child_entry_hidden',
+						'toc_hidden' => true,
 					);
 
 					echo q5_list_child_pages($post, $child_args);  

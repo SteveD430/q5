@@ -73,6 +73,7 @@ class q5_toc
 			'toc_title'             => 'Table of Contents',
 			'toc_entry_class'       => '',
 			'toc_heirarchy_class'   => '',
+			'toc_hidden'			=> false,
 		);
 
 		$r = wp_parse_args( $args, $defaults );
@@ -98,7 +99,14 @@ class q5_toc
 			}
 			$current_level = $toc_entry->get_level();
 
-			echo $toc_entry_element . '<a href="#' . $toc_entry->get_anchor() . '">' . $toc_entry->get_heading() . '</a></li>';
+			if ($r['toc_hidden'])
+			{
+				echo $toc_entry_element . '<a href="#' . $toc_entry->get_anchor() . '">HIDDEN</a></li>';
+			}
+			else
+			{
+				echo $toc_entry_element . '<a href="#' . $toc_entry->get_anchor() . '">' . $toc_entry->get_heading() . '</a></li>';
+			}
 		}
 		$this->step_out($current_level);
 		echo "</div>";
