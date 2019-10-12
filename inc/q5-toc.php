@@ -101,7 +101,7 @@ class q5_toc
 
 			if ($r['toc_hidden'])
 			{
-				echo $toc_entry_element . '<a href="#' . $toc_entry->get_anchor() . '">HIDDEN</a></li>';
+				echo $toc_entry_element . '<a>' . $toc_entry->get_anchor() . '</a></li>';
 			}
 			else
 			{
