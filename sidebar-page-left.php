@@ -67,6 +67,7 @@ if ( ! is_front_page() && !is_category( 'Site-Page' ) ) : ?>
 						'section_class'	=> 'q5_toc_child_hidden',
 						'title_class'	=> 'q5_toc_child_title_hidden',
 						'entry_class'	=> 'q5_toc_child_entry_hidden',
+						'toc_hidden'    => true,
 					);
 					echo q5_list_parent($post, $parent_args);
 					

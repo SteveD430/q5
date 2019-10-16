@@ -233,6 +233,7 @@ a:active{
 	position: relative;
 	list-style:none;
 	padding-left:12px;
+	height:auto;
 }
 
 .q5_toc li::before, .q5_toc li::after, .q5_toc_hidden li::before, .q5_toc_hidden li::after {
