@@ -78,6 +78,7 @@
 		<ul id="q5-HeaderNavigation">
 			<li class="q5_dropdown_entry"><a class="first" href="<?php echo get_site_url(); ?>">Home</a></li>
 		<?php 
+		    global $q5_header_menu_category;
 			$blogs = array(
 				'menu_title' 		=> 'Blogs',
 				'post_type' 		=> 'post',

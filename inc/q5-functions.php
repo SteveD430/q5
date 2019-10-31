@@ -94,8 +94,8 @@ if( ! function_exists( 'q5_dropdown_posts' ) ) {
 			'value_field'           => 'ID',
 			'order'                 => 'ASC',
 			'orderby'               => 'post_title',
-			'empty_title'			=> 'No Posts ',
-			'filter_callback'		=> '',
+			'empty_title'		=> 'No Posts ',
+			'filter_callback'	=> '',
 			'ul_class'              => 'q5_dropdown',
 			'li_header_class'       => 'q5_dropdown_title',
 			'li_class'              => 'q5_dropdown_entry',
@@ -116,7 +116,8 @@ if( ! function_exists( 'q5_dropdown_posts' ) ) {
 			remove_action('pre_get_posts', $r['filter_callback']);
 		}
 		
-		$output = $r['empty_title'];
+		$output = $r['li_header_class'] == null ? '<li>' . $r['empty_title'] . '</li>' :
+					'<li class="' . $r['li_header_class'] . '">' . $r['empty_title'] . '</li>' ;
 
 		if( $posts->have_posts() ) {
 
@@ -153,6 +154,24 @@ if( ! function_exists( 'q5_dropdown_posts' ) ) {
  * 3. Filter only 'Photographic' posts/pages
  * 4. Filter only 'Current' posts/pages
  */
+if ( ! function_exists('q5_menu_category_filter')) {
+	function q5_menu_category_filter ($query)
+	{
+		global $q5_header_menu_category;
+		if ( $q5_header_menu_category == null)
+		{
+			$cat_id = get_cat_ID('Site Page');
+		}
+		else
+		{
+			$cat_id = get_cat_ID($q5_header_menu_category);
+		}
+		
+		//$cat_id = get_cat_ID('photography');
+		$query->set('cat', $cat_id);
+		$query->set('post_parent', 0);
+		return $query;	}
+}
 if ( ! function_exists( 'q5_filter_site_pages' )) {
 	function q5_filter_site_pages( $query ){
 		$cat_id = get_cat_ID('Site Page');
@@ -172,6 +191,7 @@ if ( ! function_exists( 'q5_filter_photography_category' )) {
 	function q5_filter_photography_category( $query ){
 		$cat_id = get_cat_ID('Photography');
 		$query->set('cat', $cat_id);
+		$query->set('post_parent', 0);
 		return $query;
 	}
 }

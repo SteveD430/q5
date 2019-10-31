@@ -9,6 +9,8 @@
 
 if ( ! is_front_page() && !is_category( 'Site-Page' ) ) : ?>
 	<div class="q5-sidebarPageRight">
+				<?php echo '<span class="q5_author_title">Author: </span>';
+				      echo '<span class="q5_author">' . get_the_author_meta('display_name') . '</span>'; ?>
 				<?php dynamic_sidebar( 'sidebar-page-right' ); ?>
 	</div><!-- .sidebar -->
 

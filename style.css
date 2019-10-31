@@ -102,11 +102,12 @@ a:active{
 	margin:5px 10px 5px 5px; 
 }
 
-.q5-SiteTitle::first-letter{
+.q5-SiteTitleFirstLetter{
     color: var(--q5-siteTitleColor);
     font-size:40pt;
-    margin:0px 0px 4px 0px;
-	display:inline-block;
+    margin:0px 4px 4px 0px;
+	vertical-align:16px;
+	display:inline;
 	}
 	
 .q5-SiteTitle {
@@ -114,7 +115,7 @@ a:active{
     font-size:20pt;
     margin:0px 10px 0px -4px;
     vertical-align:16px;
-	display:inline-block;
+	display:inline;
 	}
 	
 .q5-HeaderMenuBar {
@@ -220,6 +221,16 @@ a:active{
     line-height:1.25;
     color:darkblue;
 }
+.q5_author_title {
+	margin: 0px 10px 0px 0px;
+	font-weight:bold;
+	font-family:'Circular';
+	font-size:16px;
+	}
+
+.q5_author {
+	font-size:14px
+	}
 
  /*
   * ToC
@@ -3054,8 +3065,7 @@ h6 {
   margin: 1rem 0;
 }
 
-h1:not(.site-title):before,
-h2:before {
+h1:not(.site-title):before {
   background: #767676;
   content: "\020";
   display: block;
