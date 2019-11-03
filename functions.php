@@ -573,6 +573,8 @@ require get_template_directory() . '/inc/customizer.php';
  */
 require get_template_directory() . '/inc/q5-functions.php';
 
+require get_template_directory() . '/inc/q5-author-widget.php';
+
 
 /**
  * Implement the Custom Header feature.
