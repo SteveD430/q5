@@ -354,7 +354,7 @@ a:active{
     position:absolute;
     background-color:rgba(0%, 0%, 0%, 0.0);
     top: calc(50% + 32px);
-    left: 0;
+    left: calc(50% - 110px);
     z-index:10;
     margin:3px;
 }
@@ -466,30 +466,30 @@ a:active{
 	padding-right: 60px
 }
 
-.q5-sitePostContent h1, .q5-page-content h1 {
+.q5-page-content h1 {
 		color: black;
 		font-size: 24pt;
 		font-weight: bold;
 		margin: 10px 0px 10px 0px;
 }
-.q5-sitePostContent h2, .q5-page-content h2 {
+.q5-page-content h2 {
 		color: black;
 		font-size: 20pt;
 		font-weight: bold;
 		margin: 10px 0px 10px 0px;
 }
-.q5-sitePostContent h3, .q5-page-content h3 {
+.q5-page-content h3 {
 		color: black;
 		font-size: 18pt;
 		font-weight: bold;
 		margin: 10px 0px 10px 0px;
 }
-.q5-sitePostContent p,.q5-page-content p {
+.q5-page-content p {
 		color: black;
 		font-size: 12pt;
 		line-height: 1.5;
 }
-.q5-sitePostContent ul, .q5-page-content ul {
+.q5-page-content ul {
 	list-style:circle;
     position:relative;
 	line-height: 1.5;
@@ -594,9 +594,6 @@ ul#q5-HeaderNavigation ul li a {
 
 .q5-frontpage-menu {
 	display: inline;
-}
-.q5-frontpage-menu ul {
-	display: inline;;
 }
 .q5-frontpage-menu li {
 	display: inline;;
@@ -3306,7 +3303,7 @@ a:focus {
 	 * Sub-menu styles
 	 *
 	 * :focus-within needs its own selector so other similar
-	 * selectors don’t get ignored if a browser doesn’t recognize it
+	 * selectors donâ€™t get ignored if a browser doesnâ€™t recognize it
 	 */
   /**
 	 * Fade-in animation for top-level submenus
@@ -3669,14 +3666,14 @@ body.page .main-navigation {
 .main-navigation .main-menu .menu-item-has-children:not(.off-canvas)[focus-within] > .sub-menu .sub-menu > li > a::before {
   font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   font-weight: normal;
-  content: "– " counters(submenu, "– ", none);
+  content: "â€“Â " counters(submenu, "â€“Â ", none);
   counter-increment: submenu;
 }
 
 .main-navigation .main-menu .menu-item-has-children:not(.off-canvas):focus-within > .sub-menu .sub-menu > li > a::before {
   font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   font-weight: normal;
-  content: "– " counters(submenu, "– ", none);
+  content: "â€“Â " counters(submenu, "â€“Â ", none);
   counter-increment: submenu;
 }
 
@@ -3772,7 +3769,7 @@ body.page .main-navigation {
 .main-navigation .main-menu .menu-item-has-children.is-focused:not(.off-canvas) > .sub-menu .sub-menu > li > a::before {
   font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   font-weight: normal;
-  content: "– " counters(submenu, "– ", none);
+  content: "â€“Â " counters(submenu, "â€“Â ", none);
   counter-increment: submenu;
 }
 
@@ -4000,7 +3997,7 @@ body.page .main-navigation {
 
 .post-navigation .nav-links a .meta-nav:before, .post-navigation .nav-links a .meta-nav:after {
   display: none;
-  content: "—";
+  content: "â€”";
   width: 2em;
   color: #767676;
   height: 1em;
@@ -5683,7 +5680,7 @@ body.page .main-navigation {
 .widget_rss ul ul > li > a::before {
   font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   font-weight: normal;
-  content: "– " counters(submenu, "– ", none);
+  content: "â€“Â " counters(submenu, "â€“Â ", none);
   counter-increment: submenu;
 }
 
@@ -6049,7 +6046,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-categories ul > li > a::before {
   font-family: "NonBreakingSpaceOverride", "Hoefler Text", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   font-weight: normal;
-  content: "– " counters(submenu, "– ", none);
+  content: "â€“Â " counters(submenu, "â€“Â ", none);
   counter-increment: submenu;
 }
 
