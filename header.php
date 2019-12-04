@@ -59,7 +59,8 @@
 				       $title = '';
 						foreach ($words as $word)
 						{
-							$title .= '<p class="q5-SiteTitle">' . $word . '</p>';
+							$title .= '<span class="q5-SiteTitleFirstLetter">' . substr($word, 0, 1) . '</span>';
+							$title .= '<span class="q5-SiteTitle">' . substr($word, 1) . '</span>';
 						}; 
 						echo $title;?>
     </div>
